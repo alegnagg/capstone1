@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+	background-color: #f2a65a;
+	color: darkorange;
+}
+
+.navbar {
+	color: orange;
+}
+
+.name {
+	color: orange;
+}
+
+.main {
+	background-color: #f58549 ;
+}
+
+#navbarNav {
+	color: #585123;
+}
