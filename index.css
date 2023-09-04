@@ -81,7 +81,7 @@ html{
     font-weight: bold;
 }
 
-#home{
+#landing{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
@@ -97,7 +97,7 @@ html{
     font-size: 4rem;
 }
 
-#home::before{
+#landing::before{
     content: "";
     position: absolute;
     top: 0;
@@ -146,7 +146,7 @@ html{
 }
 
 .btn:hover{
-    cursor: pointer;
+    cursor: none;
     background-color: white;
     color: black !important;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
@@ -321,7 +321,7 @@ html{
 }
 
 
-
+/*Footer Section*/
 
 
 
