@@ -8,6 +8,11 @@
 }
 
 /*About Me*/
+#pic{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 #pic img{
 	width: 255px;
 	height: 300px;

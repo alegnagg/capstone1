@@ -123,9 +123,16 @@ html{
     font-family: century;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 
+.headings2{
+    text-align: center;
+}
+
+.headings3{
+    text-align: center;
+}
 .btn{
     padding: 10px 35px;
     background-color: transparent;
