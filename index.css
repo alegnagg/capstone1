@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bitter', sans-serif;
 }
 
 html{
@@ -25,7 +30,7 @@ html{
 }
 
 .navbar ul li{
-    font-family: century;
+    font-family: 'Bitter', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -44,6 +49,38 @@ html{
 }
 
 /*Main Content*/
+.socmed-container {
+  flex: 1;
+  display: flex;
+  gap: 0 0.5em;
+  justify-content: flex-end;
+  padding: 0 3em;
+}
+
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.icon-wrapper i {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.icon-wrapper:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black !important;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
 #home{
     display: flex;
     flex-direction: column;
@@ -52,6 +89,12 @@ html{
     justify-content: center;
     align-items: center;
     color: white;
+    top: 30%;
+}
+
+.anj{
+    color: orange;
+    font-size: 4rem;
 }
 
 #home::before{
@@ -86,16 +129,19 @@ html{
 .btn{
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid-white;
     outline: none;
     transition: 0.9 ease;
     color: whitesmoke;
 }
 
+.butt{
+    color: whitesmoke !important;
+}
+
 .btn:hover{
     cursor: pointer;
     background-color: white;
-    color: black;
+    color: black !important;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
 }
@@ -105,17 +151,27 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+.anj2{
+    border-radius: 2em;
 }
 
 #pic{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
 }
 
 #pic img{
-    width: 575px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
 }
 
 #intro{
@@ -130,8 +186,12 @@ html{
     margin-bottom: 20px;
 }
 
-/*Portfolio Section*/
-#portfolio{
+.head{
+    text-align: center;
+}
+
+/*Projects Section*/
+#projects{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
@@ -158,6 +218,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: lightgrey;
 }
 
 .row{
@@ -165,21 +226,20 @@ html{
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border
 }
 
 .box{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 450px;
-    border: 1px solid;
+    width: 250px;
+    height: 350px;
+    border: 1px solid white;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+    background: linear-gradient(to top, rgb(255,165,0) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -188,7 +248,22 @@ html{
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: 0 0 20px rgb(255, 45, 45);
+    box-shadow: 0 0 20px rgb(255,165,0);
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+
+.image-wrapper{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0;
 }
 
 /*Contact Section*/
