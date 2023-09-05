@@ -153,6 +153,10 @@ html{
     font-weight: bold;
 }
 
+a{
+    text-decoration:none !important;
+}
+
 /*About Me Section*/
 #about{
     display: flex;
